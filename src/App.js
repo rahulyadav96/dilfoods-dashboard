@@ -1,19 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Dashboard from "./view/Dashboard";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div style={{ width: "80px" }}>
-          <img
-            src={"/images/dilfoods_logo.png"}
-            alt="logo"
-            style={{ maxWidth: "100%" }}
-          />
-        </div>
-        <p>Dashboard Analytics</p>
-      </header>
+      <Header />
+      <Dashboard />
     </div>
   );
 }
