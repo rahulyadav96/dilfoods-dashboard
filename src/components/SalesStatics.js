@@ -35,8 +35,8 @@ export default function SalesStatcis() {
       datasets: [
         {
           label: "Revenue",
-          backgroundColor: "#F0C6B7",
-          borderColor: "#F0C6B7",
+          backgroundColor: "#92D5E6",
+          borderColor: "#92D5E6",
           data: getMonthlyRevenurForm(year, sales),
         },
         {
@@ -86,7 +86,7 @@ export default function SalesStatcis() {
     setChartOptions(options);
   }, [year]);
   return (
-    <div className="card p-1 lg:p-4 border-round-md border-1 border-solid border-200">
+    <div className="card p-2 lg:p-4 border-round-md border-1 border-solid border-200">
       <div className="flex justify-content-between align-item-center mb-4 align-items-center gap-4">
         <div>
           <h3 className="m-0 white-space-nowrap">Sales Statics</h3>

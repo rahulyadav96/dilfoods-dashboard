@@ -1,21 +1,51 @@
-[
-  {
-    "year": "2024",
-    "newCustomer": [
-      {
-        "month": "jan",
-        "count": "123k",
-        "week": [
-          {
-            "day": "mon",
-            "count": "342"
-          }
-        ]
-      },
-      {
-        "month": "feb",
-        "count": "55k"
-      }
+{
+  "thisYear": {
+    "datalabel": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "June",
+      "July",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "newCustomers": [
+      4345, 2645, 6243, 2545, 2436, 4563, 5645, 5235, 1934, 1335, 2135, 5221
+    ],
+    "oldCustomers": [
+      241, 640, 423, 1145, 4436, 1521, 4643, 3435, 2134, 2435, 435, 2521
     ]
+  },
+  "lastYear": {
+    "datalabel": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "June",
+      "July",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "newCustomers": [
+      7345, 4645, 2243, 3545, 4436, 4563, 5645, 2235, 9934, 5335, 2135, 3221
+    ],
+    "oldCustomers": [
+      4241, 2640, 2423, 2145, 6436, 521, 4643, 435, 3834, 3435, 4435, 1521
+    ]
+  },
+  "lastWeek": {
+    "datalabel": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "newCustomers": [345, 645, 243, 545, 436, 563, 645],
+    "oldCustomers": [241, 340, 423, 145, 136, 421, 443]
   }
-]
+}

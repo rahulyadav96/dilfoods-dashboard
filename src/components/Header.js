@@ -1,3 +1,4 @@
+import { Avatar } from "primereact/avatar";
 export default function Header() {
   return (
     <header className="App-header">
@@ -8,7 +9,9 @@ export default function Header() {
           style={{ maxWidth: "100%" }}
         />
       </div>
-      <p>Dashboard Analytics</p>
+      <h3 className="m-0 text-sm">
+        <Avatar label="R" shape="circle" /> Rahul Yadav
+      </h3>
     </header>
   );
 }
