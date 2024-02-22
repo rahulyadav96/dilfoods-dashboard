@@ -1,0 +1,242 @@
+[
+  {
+    "year": "2023",
+    "totalRevenue": "11285",
+    "valueIn": "cr",
+    "totalProfit": "4150",
+    "monthly": [
+      {
+        "month": "jan",
+        "revenu": "285",
+        "valueIn": "cr",
+        "profit": "150"
+      },
+      {
+        "month": "feb",
+        "revenu": "200",
+        "valueIn": "cr",
+        "profit": "110"
+      },
+      {
+        "month": "mar",
+        "revenu": "210",
+        "valueIn": "cr",
+        "profit": "120"
+      },
+      {
+        "month": "apr",
+        "revenu": "250",
+        "valueIn": "cr",
+        "profit": "160"
+      },
+      {
+        "month": "may",
+        "revenu": "100",
+        "valueIn": "cr",
+        "profit": "90"
+      },
+      {
+        "month": "june",
+        "revenu": "200",
+        "valueIn": "cr",
+        "profit": "170"
+      },
+      {
+        "month": "july",
+        "revenu": "220",
+        "valueIn": "cr",
+        "profit": "180"
+      },
+      {
+        "month": "aug",
+        "revenu": "280",
+        "valueIn": "cr",
+        "profit": "240"
+      },
+      {
+        "month": "sep",
+        "revenu": "300",
+        "valueIn": "cr",
+        "profit": "260"
+      },
+      {
+        "month": "oct",
+        "revenu": "350",
+        "valueIn": "cr",
+        "profit": "310"
+      },
+      {
+        "month": "nov",
+        "revenu": "420",
+        "valueIn": "cr",
+        "profit": "360"
+      },
+      {
+        "month": "dec",
+        "revenu": "500",
+        "valueIn": "cr",
+        "profit": "450"
+      }
+    ]
+  },
+  {
+    "year": "2022",
+    "totalRevenue": "10200",
+    "valueIn": "cr",
+    "totalProfit": "3150",
+    "monthly": [
+      {
+        "month": "jan",
+        "revenu": "185",
+        "valueIn": "cr",
+        "profit": "120"
+      },
+      {
+        "month": "feb",
+        "revenu": "200",
+        "valueIn": "cr",
+        "profit": "180"
+      },
+      {
+        "month": "mar",
+        "revenu": "210",
+        "valueIn": "cr",
+        "profit": "190"
+      },
+      {
+        "month": "apr",
+        "revenu": "350",
+        "profit": "220",
+        "valueIn": "cr"
+      },
+      {
+        "month": "may",
+        "revenu": "310",
+        "profit": "260",
+        "valueIn": "cr"
+      },
+      {
+        "month": "june",
+        "revenu": "430",
+        "profit": "320",
+        "valueIn": "cr"
+      },
+      {
+        "month": "july",
+        "revenu": "450",
+        "profit": "420",
+        "valueIn": "cr"
+      },
+      {
+        "month": "aug",
+        "revenu": "410",
+        "profit": "400",
+        "valueIn": "cr"
+      },
+      {
+        "month": "sep",
+        "revenu": "500",
+        "valueIn": "cr",
+        "profit": "450"
+      },
+      {
+        "month": "oct",
+        "revenu": "580",
+        "profit": "500",
+        "valueIn": "cr"
+      },
+      {
+        "month": "nov",
+        "revenu": "432",
+        "profit": "380",
+        "valueIn": "cr"
+      },
+      {
+        "month": "dec",
+        "revenu": "440",
+        "profit": "400",
+        "valueIn": "cr"
+      }
+    ]
+  },
+  {
+    "year": "2021",
+    "totalRevenue": "13285",
+    "valueIn": "cr",
+    "totalProfit": "4450",
+    "monthly": [
+      {
+        "month": "jan",
+        "revenu": "85",
+        "profit": "44",
+        "valueIn": "cr"
+      },
+      {
+        "month": "feb",
+        "revenu": "70",
+        "profit": "60",
+        "valueIn": "cr"
+      },
+      {
+        "month": "mar",
+        "revenu": "90",
+        "profit": "66",
+        "valueIn": "cr"
+      },
+      {
+        "month": "apr",
+        "revenu": "95",
+        "profit": "89",
+        "valueIn": "cr"
+      },
+      {
+        "month": "may",
+        "revenu": "110",
+        "profit": "88",
+        "valueIn": "cr"
+      },
+      {
+        "month": "june",
+        "revenu": "100",
+        "profit": "90",
+        "valueIn": "cr"
+      },
+      {
+        "month": "july",
+        "revenu": "120",
+        "profit": "87",
+        "valueIn": "cr"
+      },
+      {
+        "month": "aug",
+        "revenu": "130",
+        "profit": "120",
+        "valueIn": "cr"
+      },
+      {
+        "month": "sep",
+        "revenu": "145",
+        "profit": "120",
+        "valueIn": "cr"
+      },
+      {
+        "month": "oct",
+        "revenu": "148",
+        "profit": "128",
+        "valueIn": "cr"
+      },
+      {
+        "month": "nov",
+        "revenu": "155",
+        "profit": "130",
+        "valueIn": "cr"
+      },
+      {
+        "month": "dec",
+        "revenu": "153",
+        "profit": "125",
+        "valueIn": "cr"
+      }
+    ]
+  }
+]

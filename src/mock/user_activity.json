@@ -1,0 +1,21 @@
+[
+  {
+    "year": "2024",
+    "newCustomer": [
+      {
+        "month": "jan",
+        "count": "123k",
+        "week": [
+          {
+            "day": "mon",
+            "count": "342"
+          }
+        ]
+      },
+      {
+        "month": "feb",
+        "count": "55k"
+      }
+    ]
+  }
+]

@@ -3,10 +3,10 @@ import App from "./App";
 import StorePrivider from "./redux/StoreProvider";
 test("renders learn react link", () => {
   render(
-    <StorePrivider>
-      <App />
-    </StorePrivider>
+    // <StorePrivider>
+    <App />
+    // </StorePrivider>
   );
-  // const linkElement = screen.getByText(/learn react/i);
-  // expect(linkElement).toBeInTheDocument();
+  const linkElement = screen.getByText(/Dashboard Analytics/i);
+  expect(linkElement).toBeInTheDocument();
 });
