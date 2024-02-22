@@ -1,25 +1,5 @@
-.App {
-}
-
-.App-logo {
-}
-
 .App-header {
-  min-height: 10vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
   font-size: calc(10px + 2vmin);
-  padding: 5px 25px;
-  border-bottom: 0.1px solid grey;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border-bottom: 0.1px solid rgb(209, 208, 208);
+  background-color: rgb(248, 246, 247);
 }
