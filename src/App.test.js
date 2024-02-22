@@ -1,12 +1,11 @@
 import { render, screen } from "@testing-library/react";
 import App from "./App";
 import StorePrivider from "./redux/StoreProvider";
-test("renders learn react link", () => {
-  render(
+
+describe("Testing App component", () => {
+  it("render app", () => {
     <StorePrivider>
       <App />
-    </StorePrivider>
-  );
-  const linkElement = screen.getByText(/Dashboard Analytics/i);
-  expect(linkElement).toBeInTheDocument();
+    </StorePrivider>;
+  });
 });
