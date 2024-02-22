@@ -20,7 +20,7 @@ export default function SalesStatcis() {
     const data = {
       labels: [
         "Janurary",
-        "Feburary",
+        "February",
         "March",
         "April",
         "May",

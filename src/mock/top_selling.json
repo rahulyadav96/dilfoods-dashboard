@@ -1,6 +1,6 @@
 {
   "topSelling": {
-    "products": ["Paneer", "Sandwitch", "Chicken Curry", "Biryani"],
+    "products": ["Paneer", "Sandwich", "Chicken Curry", "Biryani"],
     "quntities": ["34", "134", "532", "134"]
   }
 }
