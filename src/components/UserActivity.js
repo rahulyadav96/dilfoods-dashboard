@@ -2,11 +2,20 @@ import { useEffect, useState } from "react";
 import user_activity from "../mock/user_activity.json";
 import { Chart } from "primereact/chart";
 import { Button } from "primereact/button";
-
+import { useDispatch, useSelector } from "react-redux";
+import { changeUserActivityFilter } from "../redux/slices/appSlice";
 export default function UserActivity() {
-  const [dataFilter, setDataFilter] = useState("lastWeek");
+  const dataFilter = useSelector(
+    (state) => state.application.userActivityFilter
+  );
   const [chartData, setChartData] = useState({});
   const [chartOptions, setChartOptions] = useState({});
+
+  const dispatch = useDispatch();
+
+  const handleFilterButtonClick = (newFilter) => {
+    dispatch(changeUserActivityFilter(newFilter));
+  };
 
   useEffect(() => {
     const data = {
@@ -73,21 +82,21 @@ export default function UserActivity() {
             <Button
               label="Last Year"
               severity="secondary"
-              onClick={() => setDataFilter("lastYear")}
+              onClick={() => handleFilterButtonClick("lastYear")}
               outlined={dataFilter == "lastYear"}
               text={dataFilter !== "lastYear"}
             />
             <Button
               label="This Year"
               severity="secondary"
-              onClick={() => setDataFilter("thisYear")}
+              onClick={() => handleFilterButtonClick("thisYear")}
               outlined={dataFilter == "thisYear"}
               text={dataFilter !== "thisYear"}
             />
             <Button
               label="Last Week"
               severity="secondary"
-              onClick={() => setDataFilter("lastWeek")}
+              onClick={() => handleFilterButtonClick("lastWeek")}
               outlined={dataFilter == "lastWeek"}
               text={dataFilter !== "lastWeek"}
             />

@@ -6,15 +6,23 @@ import {
   getMonthlyProfitForm,
   getMonthlyRevenurForm,
 } from "../utils/chartUtils";
+import { useDispatch, useSelector } from "react-redux";
+import { changeSaleStaticsFilter } from "../redux/slices/appSlice";
 const options = [
   { name: "2023", code: "2023" },
   { name: "2022", code: "2022" },
   { name: "2021", code: "2021" },
 ];
 export default function SalesStatcis() {
-  const [year, setYear] = useState({ name: "2023", code: "2023" });
+  const selectedYear = useSelector((state) => state.application.salesFilter);
   const [chartData, setChartData] = useState({});
   const [chartOptions, setChartOptions] = useState({});
+
+  const dispatch = useDispatch();
+
+  const handleChangeYear = (e) => {
+    dispatch(changeSaleStaticsFilter(e.value));
+  };
 
   useEffect(() => {
     const data = {
@@ -37,13 +45,13 @@ export default function SalesStatcis() {
           label: "Revenue",
           backgroundColor: "#92D5E6",
           borderColor: "#92D5E6",
-          data: getMonthlyRevenurForm(year, sales),
+          data: getMonthlyRevenurForm(selectedYear, sales),
         },
         {
           label: "Profit",
           backgroundColor: "#C4E0A5",
           borderColor: "#C4E0A5",
-          data: getMonthlyProfitForm(year, sales),
+          data: getMonthlyProfitForm(selectedYear, sales),
         },
       ],
     };
@@ -84,7 +92,7 @@ export default function SalesStatcis() {
 
     setChartData(data);
     setChartOptions(options);
-  }, [year]);
+  }, [selectedYear]);
   return (
     <div className="card p-2 lg:p-4 border-round-md border-1 border-solid border-200">
       <div className="flex justify-content-between align-item-center mb-4 align-items-center gap-4">
@@ -94,8 +102,8 @@ export default function SalesStatcis() {
         </div>
         <div>
           <Dropdown
-            value={year || options[0]}
-            onChange={(e) => setYear(e.value)}
+            value={selectedYear}
+            onChange={handleChangeYear}
             options={options}
             optionLabel="name"
             placeholder="Sort By"

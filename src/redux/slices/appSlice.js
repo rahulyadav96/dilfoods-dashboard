@@ -4,15 +4,18 @@ const appSlice = createSlice({
   name: "dilFoods",
   initialState: {
     isLoading: false,
+    salesFilter: { name: "2023", code: "2023" },
+    userActivityFilter: "lastWeek",
   },
   reducers: {
-    showLoading(state) {
-      state.isLoading = true;
+    changeUserActivityFilter(state, { payload }) {
+      state.userActivityFilter = payload;
     },
-    hideLoading(state) {
-      state.isLoading = false;
+    changeSaleStaticsFilter(state, { payload }) {
+      state.salesFilter = payload;
     },
   },
 });
-export const { showLoading, hideLoading } = appSlice.actions;
+export const { changeSaleStaticsFilter, changeUserActivityFilter } =
+  appSlice.actions;
 export default appSlice;
