@@ -10,13 +10,11 @@ ReactJS || Redux || PrimeReact || Jest || Chart.js
 
 Step-1 : Clone this repository using given link
 
-<code>
-https://github.com/rahulyadav96/dilfoods-dashboard.git
-</code>
+### `https://github.com/rahulyadav96/dilfoods-dashboard.git`
 
-Step-2: Go inside dilfoods-dashboard folder
+Step-2: Go inside dilfoods-dashboard direcotry
 
-### `./dilfoods-dashboard`
+### `cd ./dilfoods-dashboard`
 
 Step-3: Now install dependencies
 
